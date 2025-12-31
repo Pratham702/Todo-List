@@ -6,7 +6,7 @@ import 'task.dart';
 
 class taskData extends ChangeNotifier{
   List<Task> _tasks = [
-    Task(name: 'Buy kurkure'),
+    Task(name: 'Buy kur'),
     Task(name: 'Buy Chips'),
     Task(name: 'Do your homework'),
   ];
@@ -29,4 +29,5 @@ class taskData extends ChangeNotifier{
     _tasks.remove(task);
     notifyListeners();
   }
+
 }
